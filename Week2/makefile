@@ -1,3 +1,6 @@
+TestLease.class: TestLease.java
+	javac TestLease.java
+
 Lease.class: Lease.java
 	javac Lease.java
 
