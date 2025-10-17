@@ -1,3 +1,9 @@
+TestTeam.class: TestTeam.java Team.java
+	javac TestTeam.java
+
+Team.class: Team.java
+	javac Team.java
+
 TestLease.class: TestLease.java
 	javac TestLease.java
 
