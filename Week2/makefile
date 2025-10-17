@@ -1,3 +1,6 @@
+Lease.class: Lease.java
+	javac Lease.java
+
 FormLetterWriter.class: FormLetterWriter.java
 	javac FormLetterWriter.java
 
