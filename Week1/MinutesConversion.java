@@ -1,3 +1,8 @@
+/*
+  Java Programming - Joyce Farrell
+  Chapter 2 Exercise 10
+*/
+
 import java.util.Scanner;
 
 public class MinutesConversion {
