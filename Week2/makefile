@@ -1,3 +1,7 @@
+MathTest.class: MathTest.java
+	javac MathTest.java
+
+
 TestGame.class: Game.java TestGame.java
 	javac TestGame.java
 
