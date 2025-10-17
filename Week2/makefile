@@ -1,3 +1,9 @@
+TestGame.class: Game.java TestGame.java
+	javac TestGame.java
+
+Game.class: Game.java
+	javac Game.java
+
 TestTeam.class: TestTeam.java Team.java
 	javac TestTeam.java
 
