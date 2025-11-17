@@ -26,4 +26,8 @@ public class Apartment {
     public double getRentAmount() {
         return rentAmount;
     }
+
+    public String toString() {
+        return numberOfBedrooms + " bedrooms, " + numberOfBaths + " baths and £" + rentAmount + " per month";
+    }
 }
