@@ -31,4 +31,8 @@ public class JobApplicant {
     public boolean canDatabase() {
         return database;
     }
+
+    public boolean getGraphics() {
+        return graphics;
+    }
 }
