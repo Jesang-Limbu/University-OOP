@@ -1,37 +1,29 @@
 public class Apartment {
-    int aptNum;
-    int bedrooms;
-    int baths;
-    double rent;
-    
-    public Apartment(int aptNum, int bedrooms, int baths, double rent) {
-	this.aptNum = aptNum;
-	this.bedrooms = bedrooms;
-	this.baths = baths;
-	this.rent = rent;
+    private final String apartmentNumber;
+    private final int numberOfBedrooms;
+    private final int numberOfBaths;
+    private final float rentAmount;
+
+    public Apartment(String apartmentNumber, int numberOfBedrooms, int numberOfBaths, float rentAmount) {
+        this.apartmentNumber = apartmentNumber;
+        this.numberOfBedrooms = numberOfBedrooms;
+        this.numberOfBaths = numberOfBaths;
+        this.rentAmount = rentAmount;
     }
 
-    public toString() {
-	return "Apartment number: " + aptNum + "\nBedrooms: " + bedrooms + "\nBaths: " + baths + "\nRent: " + rent;
+    public String getApartmentNumber() {
+        return apartmentNumber;
     }
 
-    public static void main(String[] args) {
-	
+    public int getNumberOfBedrooms() {
+        return numberOfBedrooms;
     }
 
-    public int getAptNumber() {
-	return aptNum;
+    public int getNumberOfBaths() {
+        return numberOfBaths;
     }
 
-    public int getBedrooms() {
-	return bedrooms;
-    }
-
-    public int getBaths() {
-	return baths;
-    }
-
-    public double getRent() {
-	return rent;
+    public float getRentAmount() {
+        return rentAmount;
     }
 }
