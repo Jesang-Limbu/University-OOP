@@ -26,40 +26,20 @@ public class TestJobApplicants {
         String phoneNumber = inputDevice.nextLine();
 
         System.out.print("Are you proficient in word processing? (Y/N): ");
-        boolean wordProcess;
         String userInput = inputDevice.nextLine().toLowerCase();
-        if (userInput.equals("y") || userInput.equals("yes")) {
-            wordProcess = true;
-        } else {
-            wordProcess = false;
-        }
+        boolean wordProcess = userInput.equals("y") || userInput.equals("yes");
 
         System.out.print("Are you proficient in spreadsheets? (Y/N): ");
         userInput = inputDevice.nextLine().toLowerCase();
-        boolean spreadsheet;
-        if (userInput.equals("y") || userInput.equals("yes")) {
-            spreadsheet = true;
-        } else {
-            spreadsheet = false;
-        }
+        boolean spreadsheet = userInput.equals("y") || userInput.equals("yes");
 
         System.out.print("Are you proficient in databases? (Y/N): ");
         userInput = inputDevice.nextLine().toLowerCase();
-        boolean database;
-        if (userInput.equals("y") || userInput.equals("yes")) {
-            database = true;
-        } else {
-            database = false;
-        }
+        boolean database = userInput.equals("y") || userInput.equals("yes");
 
         System.out.print("Are you proficient in graphics? (Y/N): ");
         userInput = inputDevice.nextLine().toLowerCase();
-        boolean graphics;
-        if (userInput.equals("y") || userInput.equals("yes")) {
-            graphics = true;
-        } else {
-            graphics = false;
-        }
+        boolean graphics = userInput.equals("y") || userInput.equals("yes");
 
         return new JobApplicant(name, phoneNumber, wordProcess, spreadsheet, database, graphics);
     }
