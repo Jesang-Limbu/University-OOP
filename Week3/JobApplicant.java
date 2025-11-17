@@ -32,7 +32,7 @@ public class JobApplicant {
         return database;
     }
 
-    public boolean caGraphics() {
+    public boolean canGraphics() {
         return graphics;
     }
 }
