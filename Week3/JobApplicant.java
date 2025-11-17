@@ -1,7 +1,7 @@
 public class JobApplicant {
-    String name;
-    String phoneNumber;
-    boolean wordProcess, spreadsheet, database, graphics;
+    private String name;
+    private String phoneNumber;
+    private boolean wordProcess, spreadsheet, database, graphics;
 
     public JobApplicant(String name, String phoneNumber, boolean wordProcess, boolean spreadsheet, boolean database, boolean graphics) {
         this.name = name;
@@ -32,7 +32,7 @@ public class JobApplicant {
         return database;
     }
 
-    public boolean getGraphics() {
+    public boolean caGraphics() {
         return graphics;
     }
 }
