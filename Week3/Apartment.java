@@ -2,9 +2,9 @@ public class Apartment {
     private final String apartmentNumber;
     private final int numberOfBedrooms;
     private final int numberOfBaths;
-    private final float rentAmount;
+    private final double rentAmount;
 
-    public Apartment(String apartmentNumber, int numberOfBedrooms, int numberOfBaths, float rentAmount) {
+    public Apartment(String apartmentNumber, int numberOfBedrooms, int numberOfBaths, double rentAmount) {
         this.apartmentNumber = apartmentNumber;
         this.numberOfBedrooms = numberOfBedrooms;
         this.numberOfBaths = numberOfBaths;
@@ -23,7 +23,7 @@ public class Apartment {
         return numberOfBaths;
     }
 
-    public float getRentAmount() {
+    public double getRentAmount() {
         return rentAmount;
     }
 }
